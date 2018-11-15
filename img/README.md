@@ -1,3 +1,3 @@
 ## Images
 
-This folde contains all the images
+This folder contains all the images
