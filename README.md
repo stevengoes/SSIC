@@ -4,8 +4,8 @@ Several apps for 3D scanning exists but most of them need extra hardware or cali
 
 ## Motivation
 
-This research is part of a TU Delft Global Initiative project named ”Access to prosthetics thanks to 3D printing and a smartphone app” [(link)](https://www.tudelft.nl/en/2018/3me/using-a-smartphone-as-a-3d-printer/). The goal of the project is to make prosthetic devices easy accessible by automating the design process. A prosthetic hand model with no need for assembly, a parametric socket design, cheap materials for 3DP and a smartphone as a residual limb measuring tool will enable a fast and low-cost production. The process will be an end-to-end solution where the patient will scan his residual limb as input and
-a fitting prosthesis will be delivered as output. In between is a black box, where a fitting hand prosthesis is designed by the computer and automatically 3D printed. The project is meant particularly for Colombia.
+This research is part of a TU Delft Global Initiative project named ”Access to prosthetics thanks to 3D printing and a smartphone app” [(link)](https://www.tudelft.nl/en/2018/3me/using-a-smartphone-as-a-3d-printer/). The goal of the project is to make prosthetic devices easy accessible by automating the design process. A prosthetic hand model with no need for assembly, a parametric socket design, cheap materials for 3DP and a smartphone as a residual limb measuring tool will enable a fast and low-cost production. The process will be an end-to-end solution where the patient will scan his/her residual limb as input and
+a fitting prosthesis will be delivered as output. The project is meant particularly for Colombia.
 
 ## Code Summary
 
