@@ -9,17 +9,18 @@ a fitting prosthesis will be delivered as output. In between is a black box, whe
 
 ## Code Summary
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This Github repository provides code for setting up a testenvironment to test the possibilities of the SSIC method, without using reallife subjects/objects. The code is in my case specifically used for the 3D reconstruction of a residual limb for prosthetic designing. But the SSIC testenvironment can also be used for other objects as long as you can provide your own database of shapes. In case you have your own databse, the file point_set_registration.m can make the database coherent which is needed for the SSIC method to function. When a registered databse is readily available, the following process can be executed:
 
 ![alt text](https://github.com/stevengoes/SSIC/blob/master/img/codeflow.png)
 
-## Installation
+The main files need for this process are:
+1. ImageAcqBlender.py
+2. SSIC.m
+3. silhouetteERROR.m
+
+## Work flow
 
 Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
 ## Tests
 
@@ -31,4 +32,4 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+MIT license
