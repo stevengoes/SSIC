@@ -1,8 +1,10 @@
 %% Load all the ply files to register
-% ply_read.m is written by Gabriel Peyré
+% ply_read.m is written by Gabriel PeyrÃ©
 %  - https://github.com/gpeyre/matlab-toolboxes/blob/master/toolbox_graph/read_ply.m
+% nonrigidICP.m is written by Manu
+%  - https://www.mathworks.com/matlabcentral/fileexchange/41396-nonrigidicp
 
-% Point set registration is already performed.
+% Locate the directory with the residual limb models.
 all_models = dir('...\*.ply');
 N_allmodels = length(all_models);
 % chose the number of training models, the rest will become the test set
@@ -21,10 +23,8 @@ et = etime(clock,t0);
 % whole trainingset will have the same number of vertices and faces as fv(N).  
 N=1; % reference model (i.e. template mesh)
 source = fv(N);
-%% Loop for the non-rigid ICP for the trainingdata
-% nonrigidICP.m is written by Manu
-%  - https://www.mathworks.com/matlabcentral/fileexchange/41396-nonrigidicp
 
+%% Loop for the non-rigid ICP for the trainingdata
 % Use a reference mesh and morph it to match the other meshes, thus keeping
 % a consistent number of points.
 % Model number 'N' is the reference mesh.
