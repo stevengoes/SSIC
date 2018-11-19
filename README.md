@@ -11,7 +11,7 @@ a fitting prosthesis will be delivered as output. In between is a black box, whe
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-![alt text](https://github.com/stevengoes/SSIC/blob/master/codeflow.png)
+![alt text](https://github.com/stevengoes/SSIC/blob/master/img/codeflow.png)
 
 ## Installation
 
