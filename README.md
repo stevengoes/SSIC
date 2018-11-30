@@ -25,6 +25,7 @@ Provide code examples and explanations of how to get the project.
 ## Tests
 
 Describe and show how to run the tests with code examples.
+- There is still something wrong with Ncam=1. The P matrix is calculated incorrectly in Blender. This problem is still under investigation.
 
 ## Contributors
 
